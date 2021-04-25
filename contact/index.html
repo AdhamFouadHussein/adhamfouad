@@ -44,7 +44,7 @@
     </div>
   </div>
 </section>
-<section class="spacing-huge">
+<section class="spacing-huge" id="contact">
   <div class="section section--small spacing-large-bottom">
     <div class="page-cta">
       <div class="content-styles">
@@ -55,30 +55,31 @@
     </div>
   </div>
   <div class="section section--small">
-    <form class='form js-form-validate' name='contact' method='POST' action='../contact/success/'>
-      <input type='hidden' name='form-name' value='contact' />
-      <div class="hidden">
-        <input name="bot-field">
-      </div>
+    <form class='form js-form-validate' name='contact' method='POST' action="https://formspree.io/f/xnqlnzyy" id="my-form">
       <div class="form__inner">
         <div class="form__item form__item--half">
           <label class="form__label"> Name </label>
           <input class="form__field" type="text" name="name" required>
         </div>
+
+   
         <div class="form__item form__item--half">
           <label class="form__label"> Email </label>
           <input class="form__field" type="email" name="email" required>
+
         </div>
+
         <div class="form__item form__item--full">
           <label class="form__label"> How Can I Help? </label>
           <textarea class="form__field" name="message" required></textarea>
         </div>
         <div class="form__item form__item--full form__item--action">
-          <button> <span class="btn__inner"> Send Message </span> </button>
+          <button type="submit" > <span class="btn__inner"> Send Message </span> </button>
         </div>
       </div>
     </form>
   </div>
+  <div id="status"></div>
 </section>
 <footer class="site-footer">
   <div class="site-footer__inner">
