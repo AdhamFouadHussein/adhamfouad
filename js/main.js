@@ -172,7 +172,7 @@ $(function() {
     }
   });
 
-  bar.animate(0.9);
+  bar.animate(0.98);
 
   var bar = new ProgressBar.Circle(circleprog3, {
     strokeWidth: 7,
@@ -190,7 +190,7 @@ $(function() {
     }
   });
 
-  bar.animate(0.7);
+  bar.animate(0.75);
 
   
 
@@ -245,7 +245,7 @@ $(function() {
     }
   });
 
-  bar.animate(.80);
+  bar.animate(.89);
 
   var bar = new ProgressBar.Line(lineprog5, {
     strokeWidth: 1.72,
@@ -261,7 +261,7 @@ $(function() {
       bar.setText(Math.round(bar.value() * 100) + ' %');
     }
   });
-  bar.animate(.85);
+  bar.animate(.92);
   var bar = new ProgressBar.Line(lineprog6, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
